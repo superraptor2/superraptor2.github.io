@@ -161,7 +161,7 @@ html, body {
     to   { opacity: 1; transform: scale(1)}
 }
 
-/* SERVICES PAGE */
+/* =====================SERVICES PAGE===================== */
 
 .services-onderdeel, .service-onderdeel, #services{
     display: flex;
@@ -175,8 +175,9 @@ html, body {
 
 #services {
     min-height: 100vh;
+    width: 100%;
     background-color:#232d39;
-
+    padding: 40px 0px;
 }
 
 .title {
@@ -189,6 +190,7 @@ html, body {
     letter-spacing: 1px;
     transform:scale(1, 0.9);
     margin: 30px;
+    box-shadow: 0px 0px 5px rgba(00,00,00,.35);
 }
 
 .service-title {
@@ -200,7 +202,11 @@ html, body {
 
 .service-icon {
     max-width: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.services-onderdeel {
+    margin-bottom: 40px;
 }
 
 .service-onderdeel {
@@ -210,4 +216,153 @@ html, body {
 
 .service-text {
     text-align: center;
+}
+
+/* =====================TEAM PAGE===================== */
+
+.teams-onderdeel, .team-onderdeel, #team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #232d39;
+    font-family: Calibri;
+    align-content: center;
+}
+
+#team {
+    min-height: 100vh;
+    padding: 40px 0px;
+}
+
+.team-onderdeel {
+    box-shadow: 0px 0px 5px rgba(00,00,00,.15);
+    margin: 30px;
+    width: 65%;
+}
+
+.team-pic {
+    /* margin-top: -10px;
+    margin-left: -20px; */
+    max-width: 150px;
+    order: 1;
+    box-shadow: 0px 0px 5px rgba(00,00,00,.15);
+}
+
+.team-name, .team-owner, .team-name2, .team-owner2 {
+    text-transform: uppercase;
+    color: #f2f3f4;
+    font-family: Futura;
+    letter-spacing: 1px;
+    transform:scale(1, 0.9);
+    box-shadow: 0px 0px 5px rgba(00,00,00,.15);
+}
+
+.team-owner{
+    background-color: #ff4644;
+    /* margin-left: 5px;
+    margin-right: 15px; */
+    font-size: 0.6em;
+    padding: 10px 20px;
+}
+
+.team-name {
+    background-color: #232d39;
+    font-size: 1.2em;
+    margin-right: -10px;
+    padding: 10px 30px 10px 10px;
+    text-align: left;
+
+}
+
+.team-text {
+    padding: 20px 40px;
+    font-size: 0.9em;
+}
+
+.team-box{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 110%;
+
+}
+
+.team-titles {
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+/* =====================PROJECTS PAGE===================== */
+.projects-onderdeel, .project-onderdeel, #projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f2f3f4;
+    font-family: Calibri;
+    align-content: center;
+}
+
+#projects {
+    min-height: 100vh;
+    width: 100%;
+    background-color:#232d39;
+    padding: 40px 0px;
+}
+
+.project-onderdeel {
+    margin: 20px;
+    max-width: 68%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(00,00,00,.35);
+    color: #202020;
+    font-family: Calibri;
+}
+
+.project-pic {
+    max-width: 100%;
+}
+
+.project-title {
+    font-weight: bold;
+    margin: 5%;
+    font-size: 1em;
+}
+
+.project-desc {
+    margin: 2% 5% 10% 5%;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em 0;
+    padding: 0;
+    width: 85%;
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    font-weight: 900;
+    margin-left: 3%;
+}
+
+.project-icon {
+    height: 7%;
+    width: 7%;
 }
