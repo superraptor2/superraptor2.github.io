@@ -3,6 +3,11 @@
     font-family: futura;
 }
 
+@font-face{
+    src: url(../fonts/futura_medium_bt.ttf);
+    font-family: futuraMd;
+}
+
 html, body {
     /* display: flex; */
     background-color: white;
@@ -225,7 +230,7 @@ html, body {
 }
 
 .service-onderdeel {
-    margin: 20px;
+    margin: 30px 0px;
     max-width: 50%;
 }
 
@@ -327,11 +332,11 @@ html, body {
     min-height: 100vh;
     width: 100%;
     background-color:#232d39;
-    padding: 40px 0px;
+    /* padding: 40px 0px; */
 }
 
 .project-onderdeel {
-    margin: 20px;
+    margin: 20px 0px;
     max-width: 68%;
     background-color: #fff;
     box-shadow: 0px 0px 5px rgba(00,00,00,.35);
@@ -399,10 +404,10 @@ form {
 }
 
 #contact {
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-color: #ff4644;
-    padding: 40px 0px;
+    /* padding: 40px 0px; */
 }
 
 /* .contact-onderdeel{
@@ -448,4 +453,37 @@ form {
     font-weight: bold;
     padding: 10px 20%;
     margin-top: 20px;
+}
+
+/* =====================CONTACT===================== */
+
+footer {
+    height: 20vh;
+    background-color: #232d39;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer-contact, .footer-media, .footer-copy{
+    font-family: Futura;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    transform: scale(1, 0.9);
+    margin: 15px 0px;
+}
+
+.footer-onderdeel {
+    margin: 20px 0px;
+}
+
+.footer-contact img{
+    max-width: 15px;
+}
+
+.footer-media {
+    font-family: futuraMd;
+    font-size: 0.9em;
 }
