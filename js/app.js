@@ -1,12 +1,3 @@
-// function myFunction() {
-//     var x = document.getElementById("nav");
-//     if (x.style.display === "block") {
-//       x.style.display = "none";
-//     } else {
-//       x.style.display = "block";
-//     }
-//   }
-
 //1. Testen of app.js werkt
 console.log("Hello world");
 

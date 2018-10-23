@@ -195,7 +195,7 @@ html, body {
 
 }
 
-.title {
+.title, .title-c {
     background-color: #ff4644;
     color: #f2f3f4;
     padding: 10px 25px;
@@ -380,4 +380,72 @@ hr {
 .project-icon {
     height: 7%;
     width: 7%;
+}
+
+/* =====================CONTACT===================== */
+
+.contacts-onderdeel, .contact-onderdeel, #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f2f3f4;
+    font-family: Calibri;
+    align-content: center;
+}
+
+form {
+    text-align: center;
+}
+
+#contact {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #ff4644;
+    padding: 40px 0px;
+}
+
+/* .contact-onderdeel{
+    background-color: green;
+} */
+
+.title-c {
+    text-align: center;
+    background-color:#232d39;
+}
+
+.contacts-onderdeel {
+    margin: 20px;
+    max-width: 68%;
+    color: #202020;
+    font-family: Calibri;
+}
+
+.contact-name, .contact-email, .contact-submit, .contact-message {
+    font-family: Calibri;
+    font-size: 1.1em;
+    text-align: center;
+    border: 0;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(00,00,00,.35);
+    background-color: #fff;
+}
+
+.contact-name, .contact-email, .contact-message {
+    width: 100%;
+}
+
+.input::placeholder, .contact-message::placeholder {
+    color: #7f828a;
+}
+
+.contact-message {
+    padding: 10px 0px 80px 0px;
+}
+
+.contact-submit {
+    font-weight: bold;
+    padding: 10px 20%;
+    margin-top: 20px;
 }
