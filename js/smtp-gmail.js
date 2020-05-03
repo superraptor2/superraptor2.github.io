@@ -1,4 +1,1 @@
-function youreGay() {
-    console.log("No you're gay");
-    document.getElementById('talking').src = "https://superraptor2.github.io/img/Frick.svg"
-}
+var _0x2be2=['talking','log','No\x20you\x27re\x20gay','https://superraptor2.github.io/img/Frick.svg','src'];(function(_0xdf3abc,_0x2be288){var _0x5bfa9a=function(_0x2671b7){while(--_0x2671b7){_0xdf3abc['push'](_0xdf3abc['shift']());}};_0x5bfa9a(++_0x2be288);}(_0x2be2,0x9e));var _0x5bfa=function(_0xdf3abc,_0x2be288){_0xdf3abc=_0xdf3abc-0x0;var _0x5bfa9a=_0x2be2[_0xdf3abc];return _0x5bfa9a;};function youreGay(){console[_0x5bfa('0x3')](_0x5bfa('0x4'));document['getElementById'](_0x5bfa('0x2'))[_0x5bfa('0x1')]=_0x5bfa('0x0');}
